@@ -87,6 +87,8 @@ def update(entity):
 
 @app.route("/world", methods=['POST','GET'])    
 def world():
+    #data = flask_post_json()
+    #print data
     '''you should probably return the world here'''
     return jsonify(myWorld.world())
 
